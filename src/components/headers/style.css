@@ -1,0 +1,30 @@
+header {
+    background-color: #134563;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+}
+
+header strong {
+    font-family: 'Rokkitt';
+    font-style: normal;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.logOut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 15px;
+}
+
+.logout {
+    all: unset;
+    cursor: pointer;
+}
